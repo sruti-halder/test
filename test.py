@@ -3,7 +3,7 @@ def is_even(number):
     return True
   else:
     return False
-number = 5
+number = int(input("Enter the number"))
 check = is_even(number)
 print(check)
   

@@ -1,9 +1,9 @@
 def is_even(number):
   if (number%2==0):
-    return True
+    print ("It is even.")
   else:
-    return False
+    print ("It is odd.")
 number = int(input("Enter the number"))
 check = is_even(number)
-print(check)
+
   
